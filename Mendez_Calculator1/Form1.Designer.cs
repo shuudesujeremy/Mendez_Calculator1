@@ -46,6 +46,8 @@ namespace Mendez_Calculator1
             this.btnMinus = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnAC = new System.Windows.Forms.Button();
+            this.btnC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn7
@@ -196,17 +198,37 @@ namespace Mendez_Calculator1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 56);
+            this.textBox1.Location = new System.Drawing.Point(56, 43);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(404, 80);
             this.textBox1.TabIndex = 16;
             // 
+            // btnAC
+            // 
+            this.btnAC.Location = new System.Drawing.Point(56, 148);
+            this.btnAC.Name = "btnAC";
+            this.btnAC.Size = new System.Drawing.Size(85, 41);
+            this.btnAC.TabIndex = 17;
+            this.btnAC.Text = "AC";
+            this.btnAC.UseVisualStyleBackColor = true;
+            // 
+            // btnC
+            // 
+            this.btnC.Location = new System.Drawing.Point(260, 148);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(85, 41);
+            this.btnC.TabIndex = 18;
+            this.btnC.Text = "C";
+            this.btnC.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 509);
+            this.ClientSize = new System.Drawing.Size(501, 452);
+            this.Controls.Add(this.btnC);
+            this.Controls.Add(this.btnAC);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnMinus);
@@ -250,6 +272,8 @@ namespace Mendez_Calculator1
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btnEquals;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnAC;
+        private System.Windows.Forms.Button btnC;
     }
 }
 
