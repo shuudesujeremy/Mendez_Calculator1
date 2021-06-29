@@ -100,12 +100,15 @@ namespace Mendez_Calculator1
 
         private void btnC_Click(object sender, EventArgs e)
         {
-
+            txtbxDisplay.Text = "0";
+            isOperationPerformed = false;
         }
 
         private void btnAC_Click(object sender, EventArgs e)
         {
-
+            firstNum = "";
+            txtbxDisplay.Text = "0";
+            isOperationPerformed = false;
         }
 
         private void btnBS_Click(object sender, EventArgs e)
