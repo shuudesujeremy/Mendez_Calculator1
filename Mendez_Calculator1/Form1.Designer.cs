@@ -55,7 +55,7 @@ namespace Mendez_Calculator1
             // 
             this.btn7.Location = new System.Drawing.Point(12, 171);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(85, 40);
+            this.btn7.Size = new System.Drawing.Size(85, 50);
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@ namespace Mendez_Calculator1
             // 
             this.btn8.Location = new System.Drawing.Point(115, 171);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(85, 40);
+            this.btn8.Size = new System.Drawing.Size(85, 50);
             this.btn8.TabIndex = 1;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@ namespace Mendez_Calculator1
             // 
             this.btn9.Location = new System.Drawing.Point(221, 171);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(85, 40);
+            this.btn9.Size = new System.Drawing.Size(85, 50);
             this.btn9.TabIndex = 2;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@ namespace Mendez_Calculator1
             // 
             this.btn4.Location = new System.Drawing.Point(12, 227);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(85, 40);
+            this.btn4.Size = new System.Drawing.Size(85, 50);
             this.btn4.TabIndex = 3;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@ namespace Mendez_Calculator1
             // 
             this.btn5.Location = new System.Drawing.Point(115, 227);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(85, 40);
+            this.btn5.Size = new System.Drawing.Size(85, 50);
             this.btn5.TabIndex = 4;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@ namespace Mendez_Calculator1
             // 
             this.btn6.Location = new System.Drawing.Point(221, 227);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(85, 40);
+            this.btn6.Size = new System.Drawing.Size(85, 50);
             this.btn6.TabIndex = 5;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@ namespace Mendez_Calculator1
             // 
             this.btn1.Location = new System.Drawing.Point(12, 284);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(85, 40);
+            this.btn1.Size = new System.Drawing.Size(85, 50);
             this.btn1.TabIndex = 6;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@ namespace Mendez_Calculator1
             // 
             this.btn2.Location = new System.Drawing.Point(115, 284);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(85, 40);
+            this.btn2.Size = new System.Drawing.Size(85, 50);
             this.btn2.TabIndex = 7;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
@@ -135,7 +135,7 @@ namespace Mendez_Calculator1
             // 
             this.btn3.Location = new System.Drawing.Point(221, 284);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(85, 40);
+            this.btn3.Size = new System.Drawing.Size(85, 50);
             this.btn3.TabIndex = 8;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@ namespace Mendez_Calculator1
             // 
             this.btn0.Location = new System.Drawing.Point(12, 339);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(85, 43);
+            this.btn0.Size = new System.Drawing.Size(85, 50);
             this.btn0.TabIndex = 9;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
@@ -155,7 +155,7 @@ namespace Mendez_Calculator1
             // 
             this.btnDot.Location = new System.Drawing.Point(115, 339);
             this.btnDot.Name = "btnDot";
-            this.btnDot.Size = new System.Drawing.Size(85, 43);
+            this.btnDot.Size = new System.Drawing.Size(85, 50);
             this.btnDot.TabIndex = 10;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = true;
@@ -163,9 +163,9 @@ namespace Mendez_Calculator1
             // 
             // btnPlus
             // 
-            this.btnPlus.Location = new System.Drawing.Point(337, 284);
+            this.btnPlus.Location = new System.Drawing.Point(331, 284);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(79, 98);
+            this.btnPlus.Size = new System.Drawing.Size(85, 105);
             this.btnPlus.TabIndex = 11;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
@@ -173,9 +173,9 @@ namespace Mendez_Calculator1
             // 
             // btnDivide
             // 
-            this.btnDivide.Location = new System.Drawing.Point(337, 110);
+            this.btnDivide.Location = new System.Drawing.Point(331, 108);
             this.btnDivide.Name = "btnDivide";
-            this.btnDivide.Size = new System.Drawing.Size(79, 39);
+            this.btnDivide.Size = new System.Drawing.Size(85, 50);
             this.btnDivide.TabIndex = 12;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
@@ -183,9 +183,9 @@ namespace Mendez_Calculator1
             // 
             // btnTimes
             // 
-            this.btnTimes.Location = new System.Drawing.Point(337, 171);
+            this.btnTimes.Location = new System.Drawing.Point(331, 171);
             this.btnTimes.Name = "btnTimes";
-            this.btnTimes.Size = new System.Drawing.Size(79, 39);
+            this.btnTimes.Size = new System.Drawing.Size(85, 50);
             this.btnTimes.TabIndex = 13;
             this.btnTimes.Text = "*";
             this.btnTimes.UseVisualStyleBackColor = true;
@@ -193,9 +193,9 @@ namespace Mendez_Calculator1
             // 
             // btnMinus
             // 
-            this.btnMinus.Location = new System.Drawing.Point(337, 227);
+            this.btnMinus.Location = new System.Drawing.Point(331, 227);
             this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(79, 39);
+            this.btnMinus.Size = new System.Drawing.Size(85, 50);
             this.btnMinus.TabIndex = 14;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
@@ -205,13 +205,14 @@ namespace Mendez_Calculator1
             // 
             this.btnEquals.Location = new System.Drawing.Point(221, 339);
             this.btnEquals.Name = "btnEquals";
-            this.btnEquals.Size = new System.Drawing.Size(85, 43);
+            this.btnEquals.Size = new System.Drawing.Size(85, 50);
             this.btnEquals.TabIndex = 15;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = true;
             // 
             // txtbxDisplay
             // 
+            this.txtbxDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbxDisplay.Location = new System.Drawing.Point(12, 12);
             this.txtbxDisplay.Multiline = true;
             this.txtbxDisplay.Name = "txtbxDisplay";
@@ -223,7 +224,7 @@ namespace Mendez_Calculator1
             // 
             this.btnAC.Location = new System.Drawing.Point(115, 109);
             this.btnAC.Name = "btnAC";
-            this.btnAC.Size = new System.Drawing.Size(85, 41);
+            this.btnAC.Size = new System.Drawing.Size(85, 50);
             this.btnAC.TabIndex = 17;
             this.btnAC.Text = "AC";
             this.btnAC.UseVisualStyleBackColor = true;
@@ -233,7 +234,7 @@ namespace Mendez_Calculator1
             // 
             this.btnC.Location = new System.Drawing.Point(221, 108);
             this.btnC.Name = "btnC";
-            this.btnC.Size = new System.Drawing.Size(85, 41);
+            this.btnC.Size = new System.Drawing.Size(85, 50);
             this.btnC.TabIndex = 18;
             this.btnC.Text = "C";
             this.btnC.UseVisualStyleBackColor = true;
@@ -243,7 +244,7 @@ namespace Mendez_Calculator1
             // 
             this.btnBS.Location = new System.Drawing.Point(12, 108);
             this.btnBS.Name = "btnBS";
-            this.btnBS.Size = new System.Drawing.Size(85, 41);
+            this.btnBS.Size = new System.Drawing.Size(85, 50);
             this.btnBS.TabIndex = 19;
             this.btnBS.Text = "⌫";
             this.btnBS.UseVisualStyleBackColor = true;
