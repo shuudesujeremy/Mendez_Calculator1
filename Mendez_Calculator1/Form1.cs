@@ -112,5 +112,17 @@ namespace Mendez_Calculator1
         {
 
         }
+
+        private void NumSave(string number)
+        {
+            if (isOperationPerformed)
+            {
+                firstNum = txtbxDisplay.Text;
+                txtbxDisplay.Text = "";
+            }
+
+            txtbxDisplay.Text += number;
+            isOperationPerformed = false;
+        }
     }
 }
