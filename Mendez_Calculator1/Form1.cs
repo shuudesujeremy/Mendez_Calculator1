@@ -17,6 +17,12 @@ namespace Mendez_Calculator1
             InitializeComponent();
         }
 
+        String firstNum;
+        String operation;
+        Boolean isOperationPerformed;
+       
+
+
         private void btn0_Click(object sender, EventArgs e)
         {
 
