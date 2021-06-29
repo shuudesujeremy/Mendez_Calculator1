@@ -75,27 +75,27 @@ namespace Mendez_Calculator1
 
         private void btnDot_Click(object sender, EventArgs e)
         {
-
+            txtbxDisplay.Text += ".";
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
         {
-
+            OperationSave("+");
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-
+            OperationSave("-");
         }
 
         private void btnTimes_Click(object sender, EventArgs e)
         {
-
+            OperationSave("*");
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-
+            OperationSave("/");
         }
 
         private void btnC_Click(object sender, EventArgs e)
