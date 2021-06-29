@@ -53,6 +53,7 @@ namespace Mendez_Calculator1
             // 
             // btn7
             // 
+            this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(12, 171);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(85, 50);
@@ -63,6 +64,7 @@ namespace Mendez_Calculator1
             // 
             // btn8
             // 
+            this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(115, 171);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(85, 50);
@@ -73,6 +75,7 @@ namespace Mendez_Calculator1
             // 
             // btn9
             // 
+            this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(221, 171);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(85, 50);
@@ -83,6 +86,7 @@ namespace Mendez_Calculator1
             // 
             // btn4
             // 
+            this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(12, 227);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(85, 50);
@@ -93,6 +97,7 @@ namespace Mendez_Calculator1
             // 
             // btn5
             // 
+            this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(115, 227);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(85, 50);
@@ -103,6 +108,7 @@ namespace Mendez_Calculator1
             // 
             // btn6
             // 
+            this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(221, 227);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(85, 50);
@@ -113,6 +119,7 @@ namespace Mendez_Calculator1
             // 
             // btn1
             // 
+            this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(12, 284);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(85, 50);
@@ -123,6 +130,7 @@ namespace Mendez_Calculator1
             // 
             // btn2
             // 
+            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(115, 284);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(85, 50);
@@ -133,6 +141,7 @@ namespace Mendez_Calculator1
             // 
             // btn3
             // 
+            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(221, 284);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(85, 50);
@@ -143,6 +152,7 @@ namespace Mendez_Calculator1
             // 
             // btn0
             // 
+            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(12, 339);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(85, 50);
@@ -153,6 +163,7 @@ namespace Mendez_Calculator1
             // 
             // btnDot
             // 
+            this.btnDot.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDot.Location = new System.Drawing.Point(115, 339);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(85, 50);
@@ -163,6 +174,7 @@ namespace Mendez_Calculator1
             // 
             // btnPlus
             // 
+            this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlus.Location = new System.Drawing.Point(331, 284);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(85, 105);
@@ -173,6 +185,7 @@ namespace Mendez_Calculator1
             // 
             // btnDivide
             // 
+            this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivide.Location = new System.Drawing.Point(331, 108);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(85, 50);
@@ -183,6 +196,7 @@ namespace Mendez_Calculator1
             // 
             // btnTimes
             // 
+            this.btnTimes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimes.Location = new System.Drawing.Point(331, 171);
             this.btnTimes.Name = "btnTimes";
             this.btnTimes.Size = new System.Drawing.Size(85, 50);
@@ -193,6 +207,7 @@ namespace Mendez_Calculator1
             // 
             // btnMinus
             // 
+            this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinus.Location = new System.Drawing.Point(331, 227);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(85, 50);
@@ -203,6 +218,7 @@ namespace Mendez_Calculator1
             // 
             // btnEquals
             // 
+            this.btnEquals.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEquals.Location = new System.Drawing.Point(221, 339);
             this.btnEquals.Name = "btnEquals";
             this.btnEquals.Size = new System.Drawing.Size(85, 50);
@@ -222,6 +238,7 @@ namespace Mendez_Calculator1
             // 
             // btnAC
             // 
+            this.btnAC.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAC.Location = new System.Drawing.Point(115, 109);
             this.btnAC.Name = "btnAC";
             this.btnAC.Size = new System.Drawing.Size(85, 50);
@@ -232,6 +249,7 @@ namespace Mendez_Calculator1
             // 
             // btnC
             // 
+            this.btnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.Location = new System.Drawing.Point(221, 108);
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(85, 50);
@@ -242,6 +260,7 @@ namespace Mendez_Calculator1
             // 
             // btnBS
             // 
+            this.btnBS.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBS.Location = new System.Drawing.Point(12, 108);
             this.btnBS.Name = "btnBS";
             this.btnBS.Size = new System.Drawing.Size(85, 50);
