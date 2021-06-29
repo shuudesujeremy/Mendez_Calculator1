@@ -124,5 +124,13 @@ namespace Mendez_Calculator1
             txtbxDisplay.Text += number;
             isOperationPerformed = false;
         }
+
+        private void OperationSave(string operand)
+        {
+            operation = operand;
+            isOperationPerformed = true;
+        }
     }
+
+        
 }
