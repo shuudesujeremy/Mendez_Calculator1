@@ -141,6 +141,19 @@ namespace Mendez_Calculator1
             operation = operand;
             isOperationPerformed = true;
         }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+            float num1;
+            float num2;
+            num1 = float.Parse(firstNum);
+            num2 = float.Parse(txtbxDisplay.Text);
+
+            switch (operation)
+            {
+                case ""
+            }
+        }
     }
 
         

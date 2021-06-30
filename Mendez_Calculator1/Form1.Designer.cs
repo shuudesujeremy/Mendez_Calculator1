@@ -225,6 +225,7 @@ namespace Mendez_Calculator1
             this.btnEquals.TabIndex = 15;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = true;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // txtbxDisplay
             // 
