@@ -113,7 +113,15 @@ namespace Mendez_Calculator1
 
         private void btnBS_Click(object sender, EventArgs e)
         {
+            if (txtbxDisplay.Text.Length > 0)
+            {
+                txtbxDisplay.Text = txtbxDisplay.Text.Remove(txtbxDisplay.Text.Length - 1, 1);
+            }
 
+            if (txtbxDisplay.Text == "")
+            {
+                txtbxDisplay.Text = "0";
+            }
         }
 
         private void NumSave(string number)
