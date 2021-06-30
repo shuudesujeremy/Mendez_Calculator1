@@ -151,7 +151,23 @@ namespace Mendez_Calculator1
 
             switch (operation)
             {
-                case ""
+                case "+":
+                    txtbxDisplay.Text = Convert.ToString(num1 + num2);
+
+                    break;
+                case "-":
+                    txtbxDisplay.Text = Convert.ToString(num1 - num2);
+
+                    break;
+                case "*":
+                    txtbxDisplay.Text = Convert.ToString(num1 * num2);
+                    break;
+                case "/":
+                    txtbxDisplay.Text = Convert.ToString(num1 / num2);
+                    break;
+
+                default:
+                    break;
             }
         }
     }
