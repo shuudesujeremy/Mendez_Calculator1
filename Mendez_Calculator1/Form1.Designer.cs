@@ -236,6 +236,7 @@ namespace Mendez_Calculator1
             this.txtbxDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtbxDisplay.Size = new System.Drawing.Size(404, 80);
             this.txtbxDisplay.TabIndex = 16;
+            this.txtbxDisplay.Text = "0";
             // 
             // btnAC
             // 
