@@ -164,6 +164,10 @@ namespace Mendez_Calculator1
                     break;
                 case "/":
                     txtbxDisplay.Text = Convert.ToString(num1 / num2);
+                    if (num2 == 0)
+                    {
+                        txtbxDisplay.Text = "Error";
+                    }
                     break;
 
                 default:
