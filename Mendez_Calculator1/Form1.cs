@@ -142,6 +142,14 @@ namespace Mendez_Calculator1
             isOperationPerformed = true;
         }
 
+        private void RemoveZero()
+        {
+            if (txtbxDisplay.Text == "0")
+            {
+                txtbxDisplay.Clear();
+            }
+        }
+
         private void btnEquals_Click(object sender, EventArgs e)
         {
             float num1;
