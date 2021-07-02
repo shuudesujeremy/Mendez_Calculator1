@@ -277,10 +277,11 @@ namespace Mendez_Calculator1
             // 
             this.numDisplay.AutoSize = true;
             this.numDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numDisplay.Location = new System.Drawing.Point(12, 12);
+            this.numDisplay.Location = new System.Drawing.Point(26, 27);
             this.numDisplay.Name = "numDisplay";
-            this.numDisplay.Size = new System.Drawing.Size(0, 29);
+            this.numDisplay.Size = new System.Drawing.Size(26, 29);
             this.numDisplay.TabIndex = 20;
+            this.numDisplay.Text = "0";
             this.numDisplay.Click += new System.EventHandler(this.numDisplay_Click);
             // 
             // Form1
