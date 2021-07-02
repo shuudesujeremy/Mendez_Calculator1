@@ -26,12 +26,14 @@ namespace Mendez_Calculator1
 
         private void btn0_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("0");
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("1");
         }
