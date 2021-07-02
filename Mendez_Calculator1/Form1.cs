@@ -40,48 +40,56 @@ namespace Mendez_Calculator1
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("2");
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("3");
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("4");
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("5");
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("6");
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("7");
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("8");
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
+            EqualClear();
             RemoveZero();
             NumSave("9");
         }
