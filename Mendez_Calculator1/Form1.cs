@@ -214,6 +214,16 @@ namespace Mendez_Calculator1
                     break;
             }
         }
+
+        private void txtbxDisplay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numDisplay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
         

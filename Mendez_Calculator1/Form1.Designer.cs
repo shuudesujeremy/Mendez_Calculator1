@@ -49,6 +49,7 @@ namespace Mendez_Calculator1
             this.btnAC = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
             this.btnBS = new System.Windows.Forms.Button();
+            this.numDisplay = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn7
@@ -230,13 +231,14 @@ namespace Mendez_Calculator1
             // txtbxDisplay
             // 
             this.txtbxDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxDisplay.Location = new System.Drawing.Point(12, 12);
+            this.txtbxDisplay.Location = new System.Drawing.Point(13, 12);
             this.txtbxDisplay.Multiline = true;
             this.txtbxDisplay.Name = "txtbxDisplay";
             this.txtbxDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtbxDisplay.Size = new System.Drawing.Size(404, 80);
             this.txtbxDisplay.TabIndex = 16;
             this.txtbxDisplay.Text = "0";
+            this.txtbxDisplay.TextChanged += new System.EventHandler(this.txtbxDisplay_TextChanged);
             // 
             // btnAC
             // 
@@ -271,11 +273,23 @@ namespace Mendez_Calculator1
             this.btnBS.UseVisualStyleBackColor = true;
             this.btnBS.Click += new System.EventHandler(this.btnBS_Click);
             // 
+            // numDisplay
+            // 
+            this.numDisplay.AutoSize = true;
+            this.numDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numDisplay.Location = new System.Drawing.Point(115, 13);
+            this.numDisplay.Name = "numDisplay";
+            this.numDisplay.Size = new System.Drawing.Size(26, 29);
+            this.numDisplay.TabIndex = 20;
+            this.numDisplay.Text = "0";
+            this.numDisplay.Click += new System.EventHandler(this.numDisplay_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 413);
+            this.Controls.Add(this.numDisplay);
             this.Controls.Add(this.btnBS);
             this.Controls.Add(this.btnC);
             this.Controls.Add(this.btnAC);
@@ -325,6 +339,7 @@ namespace Mendez_Calculator1
         private System.Windows.Forms.Button btnAC;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnBS;
+        private System.Windows.Forms.Label numDisplay;
     }
 }
 
