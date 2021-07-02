@@ -20,6 +20,7 @@ namespace Mendez_Calculator1
         String firstNum;
         String operation;
         Boolean isOperationPerformed;
+        Boolean isEqualPerformed;
        
 
 
@@ -162,6 +163,7 @@ namespace Mendez_Calculator1
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
+            isEqualPerformed = true;
             float num1;
             float num2;
             num1 = float.Parse(firstNum);
