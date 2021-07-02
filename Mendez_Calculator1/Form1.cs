@@ -150,6 +150,7 @@ namespace Mendez_Calculator1
             if (isOperationPerformed)
             {
                 firstNum = txtbxDisplay.Text;
+                numDisplay.Text = firstNum; 
                 txtbxDisplay.Text = "";
             }
 
@@ -193,7 +194,7 @@ namespace Mendez_Calculator1
             {
                 case "+":
                     txtbxDisplay.Text = Convert.ToString(num1 + num2);
-
+                    numDisplay.Text = Convert.ToString(num1) + " + " + Convert.ToString(num2);
                     break;
                 case "-":
                     txtbxDisplay.Text = Convert.ToString(num1 - num2);
