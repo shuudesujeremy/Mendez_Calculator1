@@ -161,6 +161,16 @@ namespace Mendez_Calculator1
             }
         }
 
+        private void EqualClear()
+        {
+            if (isEqualPerformed)
+            {
+                txtbxDisplay.Clear();
+                isEqualPerformed = false;
+            }
+
+        }
+
         private void btnEquals_Click(object sender, EventArgs e)
         {
             isEqualPerformed = true;
