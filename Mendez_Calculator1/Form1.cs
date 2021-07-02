@@ -196,15 +196,20 @@ namespace Mendez_Calculator1
                     txtbxDisplay.Text = Convert.ToString(num1 + num2);
                     numDisplay.Text = Convert.ToString(num1) + " + " + Convert.ToString(num2);
                     break;
-                case "-":
-                    txtbxDisplay.Text = Convert.ToString(num1 - num2);
 
+                case "-":
+                    numDisplay.Text = Convert.ToString(num1) + " + " + Convert.ToString(num2);
+                    txtbxDisplay.Text = Convert.ToString(num1 - num2);
                     break;
+
                 case "*":
+                    numDisplay.Text = Convert.ToString(num1) + " + " + Convert.ToString(num2);
                     txtbxDisplay.Text = Convert.ToString(num1 * num2);
                     break;
+
                 case "/":
                     txtbxDisplay.Text = Convert.ToString(num1 / num2);
+                    numDisplay.Text = Convert.ToString(num1) + " + " + Convert.ToString(num2);
                     if (num2 == 0)
                     {
                         txtbxDisplay.Text = "Error";
